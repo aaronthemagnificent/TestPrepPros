@@ -33,15 +33,15 @@
         <p>Use this form to allow us to get in touch with you within 1 buisness day!</p>
         <p>* = Required Field</p>
         <br>
-        <form class="nestedgrid2">
+        <form class="nestedgrid2" autocomplete="off" action="https://formspree.io/f/xnqyvnay" method ="POST">
           <div class = "div1">
-            Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-            Email*<br><input type="email" size="30" required name="email"><br>
-            Phone*<br><input type="tel" size="30" placeholder="111-1111" required><br>
-            Personal Website<br><input type="url" size="30">
+            Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Name"><br>
+            Email*<br><input type="email" size="30" required name="email" aria-label="Email"><br>
+            Phone*<br><input type="tel" size="30" placeholder="111-1111" required aria-label="Phone Number"><br>
+            Personal Website<br><input type="url" size="30" aria-label="Personal Website URL">
           </div>
           <div class = "div2">
-            Current High School:<br><input type="text" list="school"><br>
+            Current High School:<br><input type="text" list="school" aria-label="Current High School"><br>
             <datalist id="school">
               <option value="Beaverbrook"></option>
               <option value="Birchwood"></option>
@@ -50,8 +50,8 @@
               <option value="Hainesville"></option>
               <option value="Other"></option>
             </datalist>
-            Expected date of entry<br><input type="date" size="30"><br>
-            Number of days/weeks desired<br><input type="number" min="1" max="5" step="1" value="2"><br>
+            Expected date of entry<br><input type="date" size="30" aria-label="Expected start date"><br>
+            Number of days/weeks desired<br><input type="number" min="1" max="5" step="1" value="2" aria-label="Number of sessions desired"><br>
             <br><input type="submit" class="button" value="Help me boost my test score!">
           </div>
         </form>
