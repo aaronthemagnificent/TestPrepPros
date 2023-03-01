@@ -231,7 +231,7 @@ form {
   background-color:#FFA500;
   width:90%;
   margin:auto;
-  color:white;
+  color:#00009E;
   padding:10px;
 }
 input {
@@ -248,7 +248,7 @@ input {
 .call {
   border-radius:5px;
   text-align:center;
-  background-color:#0000b0;
+  background-color:#00009E;
   width:60%;
   padding: 5px;
   margin:10px auto 0 auto;
